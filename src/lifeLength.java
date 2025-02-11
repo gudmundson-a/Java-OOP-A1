@@ -15,7 +15,7 @@ public class lifeLength {
     }
 
     /*
-    Skapa en metod som beräknar f1(a0), om talet är 0 ska vi returnera 1.
+    Skapa en metod som beräknar f1(a0), om talet är 1 ska vi returnera 1.
     Är talet ett heltal ska det delas med två och returneras.
     Är talet udda ska det gångras med 3, sedan ska 1 adderas och slutligen returneras.
      */
