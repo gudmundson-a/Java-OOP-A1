@@ -1,6 +1,18 @@
 import java.util.Scanner;
-
 public class lifeLength {
+
+    //Main metoden med en switch som väljer vilken "task" som ska köras.
+    public static void main(String[] args) {
+        int n = 1;
+
+        switch(n){
+            case 1: task1(); break;
+            case 2: task2(); break;
+            case 3: task3(); break;
+            case 4: task4(); break;
+            case 6: task6(); break;
+        }
+    }
 
     /*
     Skapa en metod som beräknar f1(a0), om talet är 0 ska vi returnera 1.
@@ -8,7 +20,7 @@ public class lifeLength {
     Är talet udda ska det gångras med 3, sedan ska 1 adderas och slutligen returneras.
      */
     public static int f1(int a0) {
-        if (a0 == 0) {
+        if (a0 == 1) {
             return 1;
         } else if (a0 % 2 == 0) {
             return a0 / 2;
@@ -228,18 +240,6 @@ public class lifeLength {
     public static void task6() {
         for (int i = 1; i <= 15; i++) {
             System.out.println("iterLifeLength: " + iterLifeLength(i) + " recLifeLength: " + recLifeLength(i));
-        }
-    }
-
-    public static void main(String[] args) {
-        int t = 2;
-
-        switch(t){
-            case 1: task1(); break;
-            case 2: task2(); break;
-            case 3: task3(); break;
-            case 4: task4(); break;
-            case 6: task6(); break;
         }
     }
 }
