@@ -77,7 +77,6 @@ public class Raise {
 
 
     public static void main(String[] args) {
-
         task9();
 //          for (int i = 0; i <= 10000; i++){
 //              raiseOneCounter = 0;
