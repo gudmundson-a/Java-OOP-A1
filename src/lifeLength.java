@@ -3,7 +3,7 @@ public class lifeLength {
 
     //Main metoden med en switch som väljer vilken "task" som ska köras.
     public static void main(String[] args) {
-        int n = 1;
+        int n = 6;
 
         switch(n){
             case 1: task1(); break;
@@ -140,7 +140,7 @@ public class lifeLength {
     /*
     I task2 ska vi igen ta input från användaren med en scanner.
     Vi behöver kunna hantera fel vid input annat än ett heltal.
-    Användaren ska igen kunna avsluta metoden med hjälpa av
+    Användaren ska igen kunna avsluta metoden med hjälp av
     input == 0.
 
     Vi ska ta input som användaren ger och anropa ett antal

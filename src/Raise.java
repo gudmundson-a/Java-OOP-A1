@@ -52,7 +52,7 @@ public class Raise {
     }
 
     /*
-    I task 9 ska vi skapa en göra ett test där man beräknar
+    I task 9 ska vi göra ett test där man beräknar
     x^k med hjälp av båda metoderna. Man ska skriva ut resultaten
     samt antalet rekursiva anrop som behövdes för att nå basfallet.
 
@@ -77,13 +77,8 @@ public class Raise {
 
 
     public static void main(String[] args) {
-        //test cases
-//        System.out.println(recRaiseHalf(5, 3));
-//        System.out.println(recRaiseHalf(2, 10));
-//        System.out.println(recRaiseHalf(5, 0));
 
-//        task9();
-
+        task9();
 //          for (int i = 0; i <= 10000; i++){
 //              raiseOneCounter = 0;
 //              recRaiseOne(1.0005,i);
